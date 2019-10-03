@@ -54,7 +54,7 @@ Inside `sync-demo.js`, Enter the following code:
 
   ```js
   var fs = require('fs');
-  var data = fs.readdirSync('c:/');
+  var data = fs.readdirSync('../');
   console.log('data: ', data);
   console.log("This code is last");
   ```
